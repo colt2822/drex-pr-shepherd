@@ -31,7 +31,8 @@ Drex PR Shepherd watches submitted pull requests, classifies CI/review events, r
 Python 3.10+, no runtime dependencies.
 
 ```bash
-git clone <this repo> && cd drex-pr-shepherd
+git clone https://github.com/colt2822/drex-pr-shepherd.git
+cd drex-pr-shepherd
 pip install -e .
 drex-shepherd demo            # primary demo: fake GitHub, fake worker, fake verifier
 python -m unittest     # or: pip install -e '.[dev]' && pytest
